@@ -1,0 +1,104 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f0f0f0;
+}.container {
+    display: flex;
+    height: 100%;
+}.menu {
+    width: 300px;
+    background-color: #16a34a;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}.profile {
+    margin-bottom: 30px;
+}.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}.profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}.profile-email {
+    font-size: 14px;
+    opacity: 0.8;
+}.menu-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}.menu-items li {
+    margin-bottom: 15px;
+}.menu-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}.menu-items a svg {
+    margin-right: 10px;
+}.header {
+    background-color: #16a34a;
+    color: white;
+    padding: 16px;
+}.header h1 {
+    margin: 0;
+    font-size: 24px;
+}.balance {
+    font-size: 18px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 24px;
+}.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 8px;
+}.station-list {
+    margin-bottom: 24px;
+}.station {
+    background-color: #dcfce7;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}.station-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: #16a34a;
+}.map-placeholder {
+    background-color: #e5e7eb;
+    height: 200px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}.rent-button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
