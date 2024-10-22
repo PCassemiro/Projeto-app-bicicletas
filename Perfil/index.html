@@ -9,36 +9,40 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <header class="header">
             <h1>Perfil - App Bicicletas Públicas</h1>
-        </div>
-        <div class="content">
-            <div class="profile-info">
+        </header>
+        <main class="content">
+            <div class="profile-card">
                 <h2>Informações do Usuário</h2>
-                <div class="info-item">
-                    <label>Nome:</label>
-                    <span>João da Silva</span>
+                <div class="user-info">
+                    <div class="info-item">
+                        <div class="info-label">Nome:</div>
+                        <div class="info-value">João da Silva</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">E-mail:</div>
+                        <div class="info-value">joao.silva@email.com</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Telefone:</div>
+                        <div class="info-value">(11) 98765-4321</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Plano:</div>
+                        <div class="info-value">Mensal</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Saldo:</div>
+                        <div class="info-value">R$ 30,00</div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <label>E-mail:</label>
-                    <span>joao.silva@email.com</span>
-                </div>
-                <div class="info-item">
-                    <label>Telefone:</label>
-                    <span>(11) 98765-4321</span>
-                </div>
-                <div class="info-item">
-                    <label>Plano:</label>
-                    <span>Mensal</span>
-                </div>
-                <div class="info-item">
-                    <label>Saldo:</label>
-                    <span>R$ 30,00</span>
+                <div class="button-group">
+                    <button class="button button-primary">Editar Perfil</button>
+                    <button class="button button-danger">Sair</button>
                 </div>
             </div>
-            <button class="edit-button">Editar Perfil</button>
-            <button class="logout-button">Sair</button>
-        </div>
+        </main>
     </div>
 </body>
 </html>
