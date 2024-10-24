@@ -47,6 +47,9 @@ h1 {
     padding: 2rem;
     width: 100%;
     max-width: 600px;
+    margin-left: 10vh;
+    margin-right:10vh;
+    
 }
 
 h2 {

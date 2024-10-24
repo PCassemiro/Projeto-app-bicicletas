@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedala+ - Dashboard</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="user-info">
+                <div class="user-avatar" role="img" aria-label="User avatar"></div>
+                <h3>Pedro Cassemiro</h3>
+                <p>pedro.cassemiro@example.com</p>
+            </div>
+            <nav>
+                <div class="nav-item" tabindex="0" role="button">Início</div>
+                <div class="nav-item" tabindex="0" role="button">Meus Aluguéis</div>
+                <div class="nav-item" tabindex="0" role="button">Configurações</div>
+                <div class="nav-item" tabindex="0" role="button">Sair</div>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <h1>Pedala+</h1>
+                <p class="balance">Saldo Disponível: R$ 3.000.000,00</p>
+            </header>
+            <section class="stations">
+                <h2>ESTAÇÕES PRÓXIMAS</h2>
+                <div class="station-item">
+                    <div class="station-icon" role="img" aria-label="Station icon"></div>
+                    <p>Estação A - 3 bicicletas disponíveis</p>
+                </div>
+                <div class="station-item">
+                    <div class="station-icon" role="img" aria-label="Station icon"></div>
+                    <p>Estação B - 5 bicicletas disponíveis</p>
+                </div>
+                <div class="station-item">
+                    <div class="station-icon" role="img" aria-label="Station icon"></div>
+                    <p>Estação C - 2 bicicletas disponíveis</p>
+                </div>
+            </section>
+            <section class="map" role="img" aria-label="Map of nearby stations">
+                <!-- Placeholder for map -->
+            </section>
+            <button class="rent-button">Locar Bicicleta</button>
+        </main>
+    </div>
+</body>
+</html>
