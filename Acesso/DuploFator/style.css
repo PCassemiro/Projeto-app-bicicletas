@@ -11,7 +11,7 @@ body, html {
     justify-content: center;
     background: linear-gradient(to right, #4ade80, #3b82f6);
 }
-.cadastro-form {
+.DuploForm{
     background-color: white;
     padding: 2rem;
     border-radius: 0.5rem;
@@ -30,7 +30,6 @@ body, html {
     margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 .header svg {
     width: 3rem;

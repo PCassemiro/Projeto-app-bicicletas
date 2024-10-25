@@ -21,12 +21,13 @@ body, html {
     margin: 20px;
 }
 #icone{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 .header {
     display: flex;
-    margin-bottom: 2rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;

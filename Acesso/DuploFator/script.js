@@ -2,7 +2,11 @@
 function entrar() {
     var email= document.getElementById('email').value;
     var senha= document.getElementById('senha').value;
-    document.location("../Menu/index.html")
+    if (email && senha) {
+        window.location.href="../../Menu/index.html"  
+    }else{
+        window.alert('senha ou E-Mail incorretos')
+    }
     }
        
 
